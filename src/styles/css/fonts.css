@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'gilroy';
+    src: url('../../fonts/gilroy/gilroy-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/gilroy/gilroy-bold-webfont.woff') format('woff'),
+         url('../../fonts/gilroy/gilroy-bold-webfont.ttf') format('truetype'),
+         url('../../fonts/gilroy/gilroy-bold-webfont.svg#gilroy-bolduploaded_file') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gilroy';
+    src: url('../../fonts/gilroy/gilroy-medium-webfont.woff2') format('woff2'),
+         url('../../fonts/gilroy/gilroy-medium-webfont.woff') format('woff'),
+         url('../../fonts/gilroy/gilroy-medium-webfont.ttf') format('truetype'),
+         url('../../fonts/gilroy/gilroy-medium-webfont.svg#gilroy-mediumuploaded_file') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
