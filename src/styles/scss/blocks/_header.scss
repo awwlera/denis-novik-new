@@ -1,0 +1,28 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background-color: $white;
+
+    .container {
+        border-bottom: 1px solid $grey;
+        padding: 32px 0;
+    }
+
+    &__nav-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__nav-link {
+        color: $grey;
+        font-weight: 700;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+*, 
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0 20px;
+    font-family: gilroy,sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500; 
+    color: $black;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: $black;
+}
+
+.main {
+    padding-top: 122px;
+}
+
+.container {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 34px;
+    text-align: center;
+}
+
+.text-holder_light {
+    font-size: 14px;
+    line-height: 17px;
+    color: $grey;
+}
+    
