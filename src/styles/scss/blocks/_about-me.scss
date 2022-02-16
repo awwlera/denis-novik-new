@@ -1,0 +1,25 @@
+.about-me {
+    background-color: $light-grey;
+    padding: 120px 0 107px;
+
+    @include breakpoint('sm') {
+        padding: 81px 0 76px;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+
+        @include breakpoint('sm') {
+            margin-bottom: 30px;
+        }
+    }
+
+    .text-holder {
+        max-width: 485px;
+        margin: 0 auto;
+    }
+
+    .text-holder p {
+        margin-bottom: 30px;
+    }
+}

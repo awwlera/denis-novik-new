@@ -1,5 +1,10 @@
 .hero {
     padding: 40px 0 105px;
+    position: relative;
+
+    @include breakpoint('sm') {
+        padding: 65px 0 83px;  
+    }
 
     &__text-holder {
         display: flex;
@@ -8,6 +13,12 @@
         align-items: flex-end;
         margin-bottom: 30px;
         position: relative;
+
+        @include breakpoint('sm') {
+            align-items: flex-start;
+            flex-direction: column;
+            margin-bottom: 37px;
+        }
     }
 
     &__title {
@@ -21,6 +32,10 @@
     &__lang {
         align-self: center;
         transform: rotate(-90deg);
+
+        @include breakpoint('sm') {
+            display: none;
+        }
     }
 
     &__lang-list {

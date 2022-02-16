@@ -1,0 +1,62 @@
+.footer {
+    padding: 114px 0 123px;
+
+    @include breakpoint('sm') {
+        padding: 82px 0 90px;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+
+        @include breakpoint('sm') {
+            margin-bottom: 27px;
+        }
+    }
+
+    .text-holder {
+        max-width: 275px;
+        width: 100%;
+        margin:0 auto 30px;
+
+        @include breakpoint('sm') {
+            margin:0 auto 40px;
+        }    
+    }
+
+    &__btn {
+        display: block;
+        padding: 10px 30px;
+        border-radius: 50px;
+        border: none;
+        background-color: $black;
+        font-family:gilroy,sans-serif;
+        color: $white;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto 86px;
+        cursor: pointer;
+
+        @include breakpoint('sm') {
+            width: 80%;
+            margin: 0 auto 48px;
+        }
+    }
+
+    .social {
+        max-width: 345px;
+        width: 100%;
+        margin: 0 auto 45px;
+
+        &__list {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        &__link:hover {
+            transform: scale(1.1);
+        }
+    }
+}

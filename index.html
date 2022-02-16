@@ -7,6 +7,11 @@
     <title>Denis Novik</title>
     <link rel="stylesheet" href="src/styles/css/main.css">
     <link rel="stylesheet" href="src/styles/css/fonts.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+        integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        crossorigin="anonymous">
+    </script>
+    <script src="src/styles/js/main.js"></script>
 </head>
 <body>
     <header class="header">
@@ -30,7 +35,20 @@
                     </li>
                 </ul>
             </nav>
+            <div class="header__lang">
+                <ul class="header__lang-list">
+                    <li class="header__lang-list-item">
+                        <a href="#" class="header__lang-link">RU</a>
+                    </li>
+                    <li class="header__lang-list-item">
+                        <a href="#" class="header__lang-link">| ENG</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+        <button class="burger-btn">
+            <span></span>
+        </button>
     </header>
     <main class="main">
         <section class="hero">
@@ -60,7 +78,7 @@
                         <source media="(max-width:640px)" srcset="src/images/hero-md.jpg">
                         <img src="src/images/hero-lg.jpg" alt="man holding his cap">
                     </picture>
-                </div>
+                </div> 
             </div>
         </section>
         <section class="about-me" id="about-me">
@@ -80,112 +98,48 @@
                     <p>I work in such programs as</p>
                 </div>
                 <div class="skills__flex">
-                    <div class="skills__flex-box skill-card">
+                    <div class="skill-card">
                         <div class="skill-card__img">
                             <img src="src/images/skills_ps.svg" alt="Photoshop logo">
                         </div>
                         <div class="skill-card__text">
                             <p>Adobe Photoshop</p>
                         </div>
-                        <div class="skill-card__list-holder">
-                            <ul class="skill-card__list">
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star_grey"></span>
-                                </li>
-                            </ul>
+                        <div class="skill-card__stars">
+                            <img src="src/images/stars.png" alt="stars">   
                         </div>
                     </div>
-                    <div class="skills__flex-box skill-card">
+                    <div class="skill-card">
                         <div class="skill-card__img">
                             <img src="src/images/skills_ai.svg" alt="Adobe Illustrator logo">
                         </div>
                         <div class="skill-card__text">
                             <p>Adobe Illustrator</p>
                         </div>
-                        <div class="skill-card__list-holder">
-                            <ul class="skill-card__list">
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star_grey"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star_grey"></span>
-                                </li>
-                            </ul>
+                        <div class="skill-card__stars">
+                            <img src="src/images/stars2.png" alt="stars">     
                         </div>
                     </div>
-                    <div class="skills__flex-box skill-card">
+                    <div class="skill-card">
                         <div class="skill-card__img">
                             <img src="src/images/skills_ae.svg" alt="Adobe After Effects logo">
                         </div>
                         <div class="skill-card__text">
                             <p>Adobe After Effects</p>
                         </div>
-                        <div class="skill-card__list-holder">
-                            <ul class="skill-card__list">
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star_grey"></span>
-                                </li>
-                            </ul>
+                        <div class="skill-card__stars">
+                            <img src="src/images/stars.png" alt="stars">    
                         </div>
                     </div>
-                    <div class="skills__flex-box skill-card">
-                        <div class="skill-card__img">
+                    <div class="skill-card">
+                        <div class="skill-card__img skill-card__img_thin">
                             <img src="src/images/skills_figma.svg" alt="Figma logo">
                         </div>
                         <div class="skill-card__text">
                             <p>Figma</p>
                         </div>
-                        <div class="skill-card__list-holder">
-                            <ul class="skill-card__list">
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star"></span>
-                                </li>
-                                <li class="skill-card__list-item">
-                                    <span class="skill-card__star_grey"></span>
-                                </li>
-                            </ul>
+                        <div class="skill-card__stars">
+                            <img src="src/images/stars.png" alt="stars">    
                         </div>
                     </div>
                 </div>
@@ -227,25 +181,33 @@
             <div class="text-holder">
                 <p>Want to know more or just chat? You are welcome!</p>
             </div>
-            <button class="footer__btn">Send message</button>
+            <button class="footer__btn" type="submit">Send message</button>
             <div class="social">
                 <ul class="social__list">
                     <li class="social__item">
-                        <a href="#" class="social-icon"></a>
+                        <a href="https://www.linkedin.com/" target="_blank" class="social__link">
+                            <img src="src/images/linkedin.svg" alt="linked in logo">
+                        </a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social-icon"></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="social__link">
+                            <img src="src/images/inst.svg" alt="instagram logo">
+                        </a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social-icon"></a>
+                        <a href="https://www.behance.net/" target="_blank" class="social__link">
+                            <img src="src/images/behance.svg" alt="behance logo">
+                        </a>
                     </li>
                     <li class="social__item">
-                        <a href="#" class="social-icon"></a>
+                        <a href="https://dribbble.com/" target="_blank" class="social__link">
+                            <img src="src/images/dribbble.svg" alt="dribble logo">
+                        </a>
                     </li>
                 </ul>
             </div>
             <div class="text-holder_light">
-                <p>Like me on LinkedIn, Instagram, Behance, Dribble</p>
+                <p>Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
             </div>
         </div>
     </footer>   

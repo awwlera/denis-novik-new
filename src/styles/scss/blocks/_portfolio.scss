@@ -1,0 +1,42 @@
+.portfolio {
+    padding-top: 112px;
+    background-color: $light-grey;
+
+    @include breakpoint('sm') {
+        padding-top: 81px;
+    }
+
+    .section-title {
+        margin-bottom: 47px;
+
+        @include breakpoint('sm') {
+            margin-bottom: 65px;
+        }
+    }
+
+    .image-holder {
+        margin-bottom: 45px;
+
+        @include breakpoint('sm') {
+            margin-bottom: 33px;
+        }
+    }
+
+    &__card {
+        padding-bottom: 99px;
+
+        @include breakpoint('sm') {
+            padding-bottom: 78px;
+        }
+    }
+
+    &__link {
+        text-align: center;
+        text-decoration: underline;
+        color: $grey;
+
+        &:hover {
+            color: $black;
+        }
+    }
+}
